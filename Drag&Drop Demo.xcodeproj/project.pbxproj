@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F93D45D271EDE82002E6903 /* ImageFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F93D45C271EDE82002E6903 /* ImageFunctions.swift */; };
 		6FB7AC74271C09F10026D8BE /* Drag_Drop_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7AC73271C09F10026D8BE /* Drag_Drop_DemoApp.swift */; };
-		6FB7AC76271C09F10026D8BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7AC75271C09F10026D8BE /* ContentView.swift */; };
 		6FB7AC78271C09F30026D8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7AC77271C09F30026D8BE /* Assets.xcassets */; };
 		6FB7AC7B271C09F30026D8BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7AC7A271C09F30026D8BE /* Preview Assets.xcassets */; };
+		6FB7AC84271C0B5A0026D8BE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7AC83271C0B5A0026D8BE /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F93D45C271EDE82002E6903 /* ImageFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFunctions.swift; sourceTree = "<group>"; };
 		6FB7AC70271C09F10026D8BE /* Drag&Drop Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drag&Drop Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB7AC73271C09F10026D8BE /* Drag_Drop_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drag_Drop_DemoApp.swift; sourceTree = "<group>"; };
-		6FB7AC75271C09F10026D8BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6FB7AC77271C09F30026D8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FB7AC7A271C09F30026D8BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6FB7AC7C271C09F30026D8BE /* Drag_Drop_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Drag_Drop_Demo.entitlements; sourceTree = "<group>"; };
+		6FB7AC83271C0B5A0026D8BE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F93D45B271EDE50002E6903 /* Image Functions */ = {
+			isa = PBXGroup;
+			children = (
+				6F93D45C271EDE82002E6903 /* ImageFunctions.swift */,
+			);
+			path = "Image Functions";
+			sourceTree = "<group>";
+		};
 		6FB7AC67271C09F10026D8BE = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +62,9 @@
 		6FB7AC72271C09F10026D8BE /* Drag&Drop Demo */ = {
 			isa = PBXGroup;
 			children = (
+				6F93D45B271EDE50002E6903 /* Image Functions */,
+				6FB7AC82271C0AF80026D8BE /* Menu */,
 				6FB7AC73271C09F10026D8BE /* Drag_Drop_DemoApp.swift */,
-				6FB7AC75271C09F10026D8BE /* ContentView.swift */,
 				6FB7AC77271C09F30026D8BE /* Assets.xcassets */,
 				6FB7AC7C271C09F30026D8BE /* Drag_Drop_Demo.entitlements */,
 				6FB7AC79271C09F30026D8BE /* Preview Content */,
@@ -67,6 +78,14 @@
 				6FB7AC7A271C09F30026D8BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FB7AC82271C0AF80026D8BE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6FB7AC83271C0B5A0026D8BE /* MenuView.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB7AC76271C09F10026D8BE /* ContentView.swift in Sources */,
+				6FB7AC84271C0B5A0026D8BE /* MenuView.swift in Sources */,
 				6FB7AC74271C09F10026D8BE /* Drag_Drop_DemoApp.swift in Sources */,
+				6F93D45D271EDE82002E6903 /* ImageFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
